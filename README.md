@@ -1,16 +1,16 @@
 # Assessment Tasks: </br>
 # Section 1: Advanced Excel - Data Cleaning and Analysis </br>
-Dataset Specifications: Sales data with columns: Date (YYYY-MM-DD), Region (e.g., North, South,
+Dataset Specifications: Sales data with columns: Date (YYYY-MM-DD), Region (e.g., North, South,
 East, West), Product (e.g., Product A, Product B, Product C), Quantity (integer), Revenue (float, in
 USD); ~800 rows; include ~5% missing values, ~3% duplicates, and inconsistent formats (e.g., mixed
-date formats).
-Tasks:
+date formats). </br>
+## Tasks: </br>
 1. Clean the dataset (handle missing values, remove duplicates, apply conditional formatting to
-highlight top 5 revenue-generating products).
+highlight top 5 revenue-generating products). </br>
 2. Create a pivot table showing revenue by region and product, and a pivot chart visualizing the
-results.
-Output: Excel file (.xlsx) with cleaned data, conditional formatting, pivot table, and chart.
-Interpretation: In 100-150 words, explain the pivot table/chart results and their business implications
+results. </br>
+Output: Excel file (.xlsx) with cleaned data, conditional formatting, pivot table, and chart. </br>
+Interpretation: In 100-150 words, explain the pivot table/chart results and their business implications
 (e.g., identifying high-performing regions). </br>
 
 # Section 2: SQL - Querying and Optimization </br>
