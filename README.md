@@ -53,6 +53,7 @@ South, East, West), Product (e.g., Product A, Product B, Product C), Quantity (i
 1. Build a dashboard displaying quantity sold by product, with a slicer for regions. Use DAX to
 create a custom measure for total revenue growth percentage. Add a KPI card showing total
 revenue. </br>
+## Expectations
 i. Output: Power BI file (.pbix) or PDF/screenshot of the dashboard. </br>
 ii. Interpretation: In 100-150 words, explain the dashboard’s key insights, the DAX measure, and its
 usefulness for a sales team. </br>
@@ -88,6 +89,7 @@ Quantity (integer), Revenue (float); ~500 rows; supports k-means clustering and 
 ## Tasks: </br>
 1. Perform k-means clustering to group regions based on revenue and quantity sold. Visualize the
 clusters using a scatter plot. </br>
+## Expecations
 i. Output: R script file (.R) and visualization (e.g., scatter plot of clusters). </br>
 ii. Interpretation: In 100-150 words, explain the clustering results and their potential for targeted
 marketing strategies. </br>
