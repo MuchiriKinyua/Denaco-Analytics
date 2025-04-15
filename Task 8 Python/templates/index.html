@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Revenue Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f8f9fa;
+            padding-top: 50px;
+        }
+        .container {
+            max-width: 800px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        .prediction-table {
+            margin-top: 20px;
+            width: 100%;
+        }
+        .prediction-table th, .prediction-table td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-primary">Product Revenue Predictor</h1>
+        <form method="POST">
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Quantity</label>
+                <input type="number" name="quantity" step="any" placeholder="e.g 0.23239723" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="product" class="form-label">Product</label>
+                <input type="text" name="product" class="form-control" list="product-list" placeholder="e.g., Hon Deluxe Fabric Upholstered Stacking Chairs" required>
+                <datalist id="product-list">
+                    {% for product in products %}
+                        <option value="{{ product }}">
+                    {% endfor %}
+                </datalist>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Predict</button>
+            </div>
+        </form>
+
+        {% if prediction is not none %}
+            <div class="alert alert-info text-center mt-4">
+                <h4>Prediction:</h4>
+                <strong>{{ "Above Average Revenue" if prediction == 1 else "Below Average Revenue" }}</strong>
+            </div>
+
+            <table class="table table-bordered prediction-table">
+                <h1 style="text-align: center; font-size: 30px;">Samples</h1>
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Product_with_AboveAvgRevenue</th>
+                        <th>AboveAvgRevenue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0.76760277</td>
+                        <td>#10 Gummed Flap White Envelopes, 100/Box</td>
+                        <td>Below Average Revenue</td>
+                    </tr>
+                    <tr>
+                        <td>0.23239723</td>
+                        <td>Hon Deluxe Fabric Upholstered Stacking Chairs</td>
+                        <td>Above Average Revenue</td>
+                    </tr>
+                </tbody>
+            </table>
+        {% endif %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
