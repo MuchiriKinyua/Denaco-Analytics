@@ -25,7 +25,8 @@ rows); supports JOINs, subqueries, and indexing. </br>
 1. Write a query to calculate total revenue per region and product category, using a JOIN with the
 secondary table. Include a subquery to identify regions with above-average revenue. </br>
 T - +254757 640 352 </br>
-E – admin@denacoanalytics.site | denacoent@gmail.com2. Optimize the query by creating an index on the revenue column and explain the performance
+E – admin@denacoanalytics.site | denacoent@gmail.com </br>
+2. Optimize the query by creating an index on the revenue column and explain the performance
 improvement. </br>
 ## Expectations </br>
 i. Output: SQL query file (.sql), screenshot of results, and screenshot of index creation. </br>
@@ -100,8 +101,8 @@ otherwise); ~600 rows; supports logistic regression and visualization. </br>
 ## Tasks: </br>
 1. Build a logistic regression model to predict whether a product will achieve above-average
 revenue (binary outcome). Use pandas for data prep and matplotlib/seaborn for visualization
-(e.g., ROC curve).
+(e.g., ROC curve). </br>
 ## Expectations </br>
-i. Output: Python script file (.py) and visualization.
+i. Output: Python script file (.py) and visualization. </br>
 ii. Interpretation: In 100-150 words, interpret the model’s performance and its utility for product
 performance analysis.
