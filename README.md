@@ -1,6 +1,10 @@
 # Assessment Tasks: </br>
 
+<div align="center">
+
 ![Denaco](https://github.com/user-attachments/assets/1dd3f314-d783-4986-ae3d-121d83aab941)
+
+</div>
 
 # Section 1: Advanced Excel - Data Cleaning and Analysis </br>
 Dataset Specifications: Sales data with columns: Date (YYYY-MM-DD), Region (e.g., North, South,
@@ -12,7 +16,7 @@ date formats). </br>
 highlight top 5 revenue-generating products). </br>
 2. Create a pivot table showing revenue by region and product, and a pivot chart visualizing the
 results. </br>
-## Expectation:  </br>
+## Expectations  </br>
 i. Output: Excel file (.xlsx) with cleaned data, conditional formatting, pivot table, and chart. </br>
 ii. Interpretation: In 100-150 words, explain the pivot table/chart results and their business implications
 (e.g., identifying high-performing regions). </br>
