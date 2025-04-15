@@ -9,8 +9,9 @@ date formats). </br>
 highlight top 5 revenue-generating products). </br>
 2. Create a pivot table showing revenue by region and product, and a pivot chart visualizing the
 results. </br>
-Output: Excel file (.xlsx) with cleaned data, conditional formatting, pivot table, and chart. </br>
-Interpretation: In 100-150 words, explain the pivot table/chart results and their business implications
+## Expectation:  </br>
+i. Output: Excel file (.xlsx) with cleaned data, conditional formatting, pivot table, and chart. </br>
+ii. Interpretation: In 100-150 words, explain the pivot table/chart results and their business implications
 (e.g., identifying high-performing regions). </br>
 
 # Section 2: SQL - Querying and Optimization </br>
