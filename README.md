@@ -122,3 +122,18 @@ performance analysis.
 ## Results </br>
 ![image](https://github.com/user-attachments/assets/e37a3e2f-fcc7-4275-921e-4a0a1760484c)
 
+## Conclusions
+
+The project successfully met the original problem statement and objectives. </br>
+The logistic regression model provides a reliable classification of products with strong accuracy and generalization (confirmed by ROC-AUC). This means your system can now predict with reasonable confidence whether a product is likely to generate above-average revenue. </br>
+## Recommendations
+
+    Deploy Model: Integrate this model into your product management or ERP system to assist in real-time product evaluation.
+
+    Monitor Performance: Retrain periodically with new data to adapt to market trends or seasonal effects.
+
+    Feature Exploration: Investigate which product features are most influential using SHAP or coefficients from the model.
+
+    Ensemble Models: Try boosting or stacking techniques (e.g., Random Forest, XGBoost) to see if performance can further improve.
+
+    Actionable Dashboard: Build a dashboard that highlights “High Potential” products flagged by the model, with filters by category, season, etc.
