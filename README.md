@@ -131,6 +131,21 @@ performance analysis.
 ## Results </br>
 ![image](https://github.com/user-attachments/assets/e37a3e2f-fcc7-4275-921e-4a0a1760484c)
 
+## Interpretation
+The logistic regression model achieved an accuracy of 86.7% and a ROC-AUC of 0.8552, reflecting strong predictive performance. The confusion matrix shows:
+
+    True Negatives (Not Above Avg predicted correctly): 1659
+
+    False Positives (Not Above Avg misclassified as Above Avg): 229
+
+    False Negatives (Above Avg misclassified as Not Above Avg): 106
+
+    True Positives (Above Avg predicted correctly): 524
+
+This means the model is especially strong at correctly identifying products that are not expected to achieve above-average revenue, with a small number of misclassifications in both directions.
+
+The high True Positive Rate and low False Positive Rate on the ROC curve affirm the model’s utility. It can serve as a valuable decision-support tool, enabling businesses to focus resources on high-potential products and reevaluate those likely to underperform. However, periodic retraining and feature evaluation will be key to sustaining accuracy over time.
+
 ## Conclusions
 
 The project successfully met the original problem statement and objectives. </br>
