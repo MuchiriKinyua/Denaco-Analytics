@@ -106,6 +106,7 @@ marketing strategies. </br>
 T - +254757 640 352 </br>
 E – admin@denacoanalytics.site | denacoent@gmail.comSection </br>
 ## Results </br>
+![clusters_plot](https://github.com/user-attachments/assets/c5eaebe7-c9a5-4867-94a5-3e968137f143)
 
 # 8: Python - Machine Learning </br>
 Dataset Specifications: Product performance data with columns: Product (e.g., Product A, Product B,
