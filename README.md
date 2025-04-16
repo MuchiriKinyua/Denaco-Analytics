@@ -38,6 +38,9 @@ i. Output: SQL query file (.sql), screenshot of results, and screenshot of index
 ii. Interpretation: In 100-150 words, discuss the query results, the impact of indexing, and their relevance
 for sales strategies. </br>
 ## Results </br>
+![image](https://github.com/user-attachments/assets/c59bd7e4-47aa-4ec8-8ac0-994a9c5ed36a)
+
+## Interpretation
 
 # Section 3: Tableau - Visualization </br>
 Dataset Specifications: Sales trends data with columns: Date (YYYY-MM-DD, spanning 2-3 years),
@@ -92,7 +95,7 @@ i. Output: STATA output file (.dta) or screenshots of results and scatter plot. 
 ii. Interpretation: In 100-150 words, discuss the regression results and their predictive value for sales
 forecasting. </br>
 ## Results </br>
-![image](https://github.com/user-attachments/assets/c59bd7e4-47aa-4ec8-8ac0-994a9c5ed36a)
+
 
 ## Interpretation
 
