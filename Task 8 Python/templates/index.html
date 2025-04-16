@@ -33,12 +33,12 @@
         <form method="POST">
             <div class="mb-3">
                 <label for="quantity" class="form-label">Quantity</label>
-                <input type="number" name="quantity" step="any" placeholder="e.g 0.23239723" class="form-control" required>
+                <input type="number" name="quantity" step="any" placeholder="e.g., 0.76760277" class="form-control" required>
             </div>
 
             <div class="mb-3">
                 <label for="product" class="form-label">Product</label>
-                <input type="text" name="product" class="form-control" list="product-list" placeholder="e.g., Hon Deluxe Fabric Upholstered Stacking Chairs" required>
+                <input type="text" name="product" class="form-control" list="product-list" placeholder="e.g., #10 Gummed Flap White Envelopes, 100/Box" required>
                 <datalist id="product-list">
                     {% for product in products %}
                         <option value="{{ product }}">
