@@ -129,7 +129,7 @@ i. Output: Python script file (.py) and visualization. </br>
 ii. Interpretation: In 100-150 words, interpret the model’s performance and its utility for product
 performance analysis.
 ## Results </br>
-![image](https://github.com/user-attachments/assets/e37a3e2f-fcc7-4275-921e-4a0a1760484c)
+![Screenshot from 2025-04-16 19-43-19](https://github.com/user-attachments/assets/74ebf3fe-eced-4bb9-8f66-dd55f16786f9)
 
 ## Interpretation
 The logistic regression model achieved an accuracy of 86.7% and a ROC-AUC of 0.8552, reflecting strong predictive performance. The confusion matrix shows:
@@ -161,3 +161,5 @@ The logistic regression model provides a reliable classification of products wit
     Ensemble Models: Try boosting or stacking techniques (e.g., Random Forest, XGBoost) to see if performance can further improve.
 
     Actionable Dashboard: Build a dashboard that highlights “High Potential” products flagged by the model, with filters by category, season, etc.
+
+![image](https://github.com/user-attachments/assets/e37a3e2f-fcc7-4275-921e-4a0a1760484c)
