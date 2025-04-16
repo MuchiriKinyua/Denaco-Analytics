@@ -92,6 +92,9 @@ i. Output: STATA output file (.dta) or screenshots of results and scatter plot. 
 ii. Interpretation: In 100-150 words, discuss the regression results and their predictive value for sales
 forecasting. </br>
 ## Results </br>
+![image](https://github.com/user-attachments/assets/c59bd7e4-47aa-4ec8-8ac0-994a9c5ed36a)
+
+## Interpretation
 
 # Section 7: R - Clustering and Visualization </br>
 Dataset Specifications: Regional sales data with columns: Region (e.g., North, South, East, West),
