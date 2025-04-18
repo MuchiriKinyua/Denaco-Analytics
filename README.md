@@ -92,6 +92,13 @@ i. Output: Power BI file (.pbix) or PDF/screenshot of the dashboard. </br>
 ii. Interpretation: In 100-150 words, explain the dashboard’s key insights, the DAX measure, and its
 usefulness for a sales team. </br>
 ## Results </br>
+![PowerBi screenshot](https://github.com/user-attachments/assets/7452c71a-856b-4688-a0bd-bedc7217c042)
+
+## Interpretation
+Based on the Power BI dashboard I've created, the "Sum of Quantity by Product Name" bar chart clearly indicates the varying sales volume across different products. "Staple envelope" appears to be the highest selling product by quantity, while other products show significantly lower sales volumes.
+The slicer for "Region" allows for dynamic filtering, enabling the sales team to analyze product performance within specific geographic areas. 
+The "Sum of Quantity" card displays the total quantity of all products sold across all regions in the current filter context (initially all regions). 
+The "Total Revenue by Order Date" card shows the total revenue. It represents the overall total revenue across the entire dataset. This would allow the sales team to track progress against previous periods and identify growth areas or potential declines
 
 # Section 5: SPSS - Statistical Analysis </br>
 Dataset Specifications: Sales comparison data with columns: Region (e.g., North, South, East, West),
