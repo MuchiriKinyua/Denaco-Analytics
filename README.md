@@ -118,6 +118,7 @@ E – admin@denacoanalytics.site | denacoent@gmail.comSection </br>
 ![clusters_plot](https://github.com/user-attachments/assets/c5eaebe7-c9a5-4867-94a5-3e968137f143)
 
 ## Interpretation
+The bubble chart displays revenue performance by region, using bubble size and position to represent quantity sold and revenue generated. Among all regions, the North stands out as the top performer, with the highest revenue (over 1,360,000 USD) and a relatively high quantity of sales, suggesting both strong demand and possibly high-value products. East and West regions show moderate performance, with similar revenue levels (~1,250,000 USD), though the West has slightly higher quantity sold, indicating more volume but possibly lower unit revenue. The South region lags behind, generating the lowest revenue (~1,150,000 USD) despite reasonable sales volume. These insights are valuable for strategic decision-making, as they highlight regions that may require targeted marketing, pricing review, or product adjustments to boost revenue and efficiency.
 
 # 8: Python - Machine Learning </br>
 Dataset Specifications: Product performance data with columns: Product (e.g., Product A, Product B,
