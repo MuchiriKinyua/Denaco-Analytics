@@ -41,6 +41,9 @@ for sales strategies. </br>
 ![image](https://github.com/user-attachments/assets/c59bd7e4-47aa-4ec8-8ac0-994a9c5ed36a)
 
 ## Interpretation
+The SQL query effectively identifies and aggregates total revenue for each product category within regions that have an overall revenue exceeding the average regional revenue. The results clearly show the top-performing categories in the East and West regions, providing valuable insights for targeted sales strategies. For instance, "Office Supplies" in both East and West significantly surpasses other categories in revenue.
+
+Creating an index on the Sales column, as demonstrated, aims to improve query performance by allowing the database to locate relevant rows faster when filtering or sorting by sales figures. While the %timeit result shows the execution time of the query, the actual performance improvement from the index might be more noticeable on larger datasets. This optimization is crucial for scalability, enabling quicker analysis as the sales data grows, ultimately leading to more efficient decision-making in sales and inventory management.
 
 # Section 3: Tableau - Visualization </br>
 Dataset Specifications: Sales trends data with columns: Date (YYYY-MM-DD, spanning 2-3 years),
