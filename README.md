@@ -70,6 +70,14 @@ i. Output: Tableau file (.twbx) or PDF/screenshot of the dashboard. </br>
 ii. Interpretation: In 100-150 words, describe the dashboard insights and how they could guide business
 decisions. </br>
 ## Results </br>
+![Dashboard 1](https://github.com/user-attachments/assets/ee3164cf-fa55-4401-9032-8aa6ac12b1af)
+
+## Interpretation
+This dashboard provides a clear overview of sales trends segmented by product category and region. The "Revenue over time" line chart illustrates how sales fluctuate over the observed period, with distinct peaks and troughs indicating potential seasonality or specific events impacting overall revenue. Notably, the different colored lines allow for a quick comparison of how each category contributes to the total revenue trend.   
+
+The "Revenue by region" bar chart offers a snapshot of regional performance, highlighting which regions are driving the most sales. This comparison is crucial for identifying key markets and areas that may require additional attention or investment.   
+
+Together, these visualizations enable business leaders to make informed decisions such as adjusting inventory based on seasonal trends, allocating resources to high-performing regions, or developing targeted marketing strategies for underperforming areas or categories. The category filter enhances the dashboard's interactivity, allowing users to drill down and analyze specific product segments, providing a more granular view of the data.   
 
 # Section 4: Power BI - Data Analysis and Visualization </br>
 Dataset Specifications: Product sales data with columns: Date (YYYY-MM-DD), Region (e.g., North,
